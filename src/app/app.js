@@ -179,7 +179,7 @@ angular
 
       this.chart3.data = []
 
-      $http.get("http://localhost:7001/data/chart1")
+      $http.get("http://localhost:3001/data/chart1")
         .then((response) => {
           debugger
           this.chart3.data = response.data
